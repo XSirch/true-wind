@@ -7,11 +7,11 @@ A desktop app to calculate and visualize True Wind, built with CustomTkinter.
 ## PT-BR
 
 ### Descrição
-Calculadora de Vento Real (True Wind) com interface gráfica em CustomTkinter. Informe a velocidade e o aproamento do barco, e a velocidade e direção do vento medidos. O app calcula a magnitude e direção do Vento Real e exibe um indicador gráfico com modos de exibição NorthUP e HeadUP.
+Calculadora de Vento Real (True Wind) com interface gráfica em CustomTkinter. Informe a velocidade e o aproamento do barco, e a velocidade e direção do vento medidos. O app calcula a intensidade e direção do Vento Real e exibe um indicador gráfico com modos de exibição NorthUP e HeadUP.
 
 ### Recursos
 - Cálculo do Vento Real a partir de vento aparente e velocidade/rumo do barco
-- Escala de Beaufort automática com descrição em português
+- Escala Beaufort automática com descrição em português
 - Alternância entre referência de vento ao Norte ou ao Aproamento
 - Visualização gráfica com modos NorthUP e HeadUP
 
@@ -39,7 +39,7 @@ O executável será gerado em `dist/TrueWind.exe`.
 ### Notas de uso
 - "North ref" usa Norte verdadeiro como referência da direção do vento.
 - "Heading ref" soma o aproamento do barco à direção do vento medida.
-- "NorthUP" mantém o Norte no topo da rosa; "HeadUP" gira a rosa e mantém o barco para cima.
+- "NorthUP" mantém o Norte no topo da rosa; "HeadUP" proa da embarcação para cima.
 
 ---
 
@@ -78,7 +78,7 @@ The binary will be in `dist/TrueWind.exe`.
 ### Usage notes
 - "North ref" uses true North as wind reference.
 - "Heading ref" adds boat heading to the measured wind direction.
-- "NorthUP" keeps North at the top; "HeadUP" rotates the rose to keep the boat facing up.
+- "NorthUP" keeps North at the top; "HeadUP" rotates vessel's bow up.
 
 ---
 
